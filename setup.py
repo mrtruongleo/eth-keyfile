@@ -11,7 +11,7 @@ deps = {
     'keyfile': [
         "eth-utils>=2,<3",
         "eth-keys>=0.4.0,<0.5.0",
-        "pycryptodome>=3.6.6,<4",
+        "pycryptodomex>=3.6.6,<4",
     ],
     'test': [
         "pytest>=6.2.5,<7",
