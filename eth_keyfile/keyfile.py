@@ -3,10 +3,10 @@ import hmac
 import json
 import uuid
 
-from Crypto import Random
-from Crypto.Cipher import AES
-from Crypto.Protocol.KDF import scrypt
-from Crypto.Util import Counter
+from Cryptodome import Random
+from Cryptodome.Cipher import AES
+from Cryptodome.Protocol.KDF import scrypt
+from Cryptodome.Util import Counter
 
 from eth_keys import keys
 
